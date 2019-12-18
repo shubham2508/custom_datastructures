@@ -3,6 +3,7 @@ import logging
 '''Links used:
 http://adilet.org/blog/palindromic-tree/
 https://medium.com/@alessiopiergiacomi/eertree-or-palindromic-tree-82453e75025b
+It solves the problem in O(n)
 '''
 
 class PalindromicNode:
