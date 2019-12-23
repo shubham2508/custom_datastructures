@@ -77,7 +77,7 @@ class PalindromicTree:
             curr_start = curr_ind if curr_suffix.len == -1 else curr_ind - curr_suffix.len - 1
             if curr_start >= 0 and self.string[curr_start] == character:
                 new_node.suffixLink = curr_suffix.insertionEdge[chr_index]
-                new_node.num_of_suffix_links += curr_suffix.num_of_suffix_links
+                new_node.num_of_suffix_links += new_node.suffixLink.num_of_suffix_links
                 self.total_palindromes += new_node.num_of_suffix_links
                 logging.debug(f' new_node suffix link is : {self.string[new_node.suffixLink.start:new_node.suffixLink.end + 1]}')
                 break
