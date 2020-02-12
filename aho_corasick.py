@@ -1,4 +1,8 @@
-
+'''
+USEFUL LINKS:
+https://medium.com/100-days-of-algorithms/day-34-aho-corasick-4b9f439d4712
+https://www.toptal.com/algorithms/aho-corasick-algorithm
+'''
 from collections import deque, defaultdict
 import logging
 
